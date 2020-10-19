@@ -145,32 +145,12 @@ h1{
 	color: #000;
 }
 .titlelogo {
-	font-size: 70px;
+	font-size: 2em;
 	text-align: center;
 	text-decoration: none;
 	color: #000;
 }
-.h{
-	font-size: 70px;
-	padding: 0.5em 1em;
-	margin: 2em 0;
-    color: rgb(80, 207, 21);
-    background: #000;/*背景色*/
-}
-.m {
-	padding: 0.5em 1em;
-	font-size: 70px;
-	margin: 2em 0;
-	color: rgb(80, 207, 21);
-    background: #000;/*背景色*/
-}
-.s {
-	padding: 0.5em 1em;
-	font-size: 70px;
-	margin: 2em 0;
-	color: rgb(80, 207, 21);
-    background: #000;/*背景色*/
-}
+
 .follow-me {
 	list-style: none;
 	margin: 0 0 -8px;
