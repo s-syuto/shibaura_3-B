@@ -203,6 +203,14 @@ body,
   min-height: 100vh;
 }
  
+body {
+	background-image: url("photo/media_classroom1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-position: center center;   
+  }
+
 footer {
   margin-top: auto;
   width: 100%;
@@ -249,53 +257,53 @@ ul.topnav li.right {
 h1{
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 	
 }
 .ABOUT {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 .STORY {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 	margin: 190px;
 }
 .MEDIA {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 	margin: 100px;
 }
 .MAP {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 .HELP {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 .CONTACT  {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 
 .SERVICE a{
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 	text-align: center;
 	text-decoration: none;
 	border-bottom: solid 3px #000;
@@ -304,7 +312,7 @@ h1{
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 	text-align: center;
 	text-decoration: none;
 }
@@ -313,25 +321,25 @@ h1{
     font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 .game {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 .COUNT {
 	font-size: 40px;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 .titlelogo {
 	font-size: 2em;
 	text-align: center;
 	text-decoration: none;
-	color: #000;
+	color: rgb(255, 255, 255);
 }
 
 .follow-me {
