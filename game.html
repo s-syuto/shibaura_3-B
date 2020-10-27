@@ -13,8 +13,11 @@
 <!-- content属性にページの著者情報を記述 -->
 <!-- モバイル端末への対応、ページをビューポートの幅に合わせてレンダリング（Android, iOS6以降）ズームを許可しない設定「user-scalable=no」は加えない -->
 <!-- スタイルシートはできるだけ早くレンダリングされるため、HTMLドキュメントの上の方に記述href属性にスタイルシートファイルのURIを記述-->
-      <link rel="stylesheet" href="stylesheet.css">
+      <link rel="stylesheet" href="game.css">
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script type="text/javascript" src="delighters.js"></script>
+      <script type="text/javascript" src="main.js"></script>
        <!-- href属性にファビコンファイルのURIを記述 -->
        <link rel="shortcut icon" href="photo/favicon.ico">
        <!-- コメントアウトしてあるコードは、iOS/Android用のアイコン指定 -->
@@ -56,73 +59,77 @@
             </div>
          </div>
      </header>
-     <div class="titlelogo">
-      <br><br><br>
-      <a href="index.html"><img src="photo/sitlogo2.png" width="100%" height="auto"></a>
-      <br><br><br><br><br>
-      <h1>3-B<br>バーチャル芝生祭特設サイト</h1>
-     </div><br><br><br><br><br><br><br><br><br>
-     <div class="COUNT">
-      <h1>バーチャル芝生祭まであと</h1>
-      <div id="result"></div>
-      <script src="countdown.js"></script>
-     </div><br><br><br><br><br>
-     <div class="foo" data-delighter>
-     <div class="ABOUT" id="ABOUT">
-         <h1>ABOUT</h1>
-         <p>【ゲームを始める前に必ずお読みください】</p>
-         <p>この3Bのゲームはブラウザ上で動作します。</p>
-         <p>対応デバイス：Windows,MAC</p>
-         <p>推奨ブラウザ：Google Chrome,Firefox,Microsoft Edgeなど</p>
-         <a href="https://www.google.co.jp/chrome/thank-you.html?brand=CHBD&statcb=1&installdataindex=empty&defaultbrowser=0"><img src="photo/chromelogo.png" width="30%" height="30%"></a>
-         <a href="https://www.microsoft.com/ja-jp/edge"><img src="photo/Microsoft Edge.png"width="30%" height="30%"></a>
-         <p>※上記以外のブラウザを使用すると正常に動作しない可能性があります。</p>
+     <div class="start">
+        <p><img src="photo/sitlogo.png" alt="" width="100%" height="100%"></p>
+    </div>
+      <div class="q1">
+    
+    　
       </div>
-      </div><br><br><br><br><br>
-      <div class="foo" data-delighter>
-      <div class="STORY" id="STORY">
-         <h1>STORY</h1>
-         <p>舞台はこの学校の校舎。放課後に主人公は忘れ物を取りに行き、教室へ向かったが謎の組織によって教室に閉じ込められてしまった。しかし、そこには暗号やメッセージが隠されていた...果たして主人公は謎を解き校舎を脱出することは出来るのか...!?</p>
-         <div class="video">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/SGdQXaT4tok?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         </div>
-      </div>
-      </div><br><br><br><br><br>
-      <div class="foo" data-delighter>
-      <div class="MEDIA" id="MEDIA">
-         <h1>MEDIA</h1>
-         <a href="photo/media_classroom1.png" data-lightbox="group"><img src="photo/media_classroom1.png" width="300"></a>
-         <a href="photo/media_corridor1.png" data-lightbox="group"><img src="photo/media_corridor1.png" width="300"></a>
-         <a href="photo/no-image.jpg" data-lightbox="group"><img src="photo/no-image.jpg" width="300"></a>
-         <a href="photo/no-image.jpg" data-lightbox="group"><img src="photo/no-image.jpg" width="300"></a>
-         <a href="photo/no-image.jpg" data-lightbox="group"><img src="photo/no-image.jpg" width="300"></a>
-         <a href="photo/no-image.jpg" data-lightbox="group"><img src="photo/no-image.jpg" width="300"></a>
-         <a href="photo/no-image.jpg" data-lightbox="group"><img src="photo/no-image.jpg" width="300"></a>
-         <a href="photo/no-image.jpg" data-lightbox="group"><img src="photo/no-image.jpg" width="300"></a>
-         <a href="photo/no-image.jpg" data-lightbox="group"><img src="photo/no-image.jpg" width="300"></a>
-      </div>
-      </div><br><br><br><br><br>
-      <div class="foo" data-delighter>
-         <!--
-      <div class="MAP">
-         <h1>MAP</h1>
-         <img src="photo/2階map.png" width="30%" height="30%">
-         <img src="photo/3階map.png" width="30%" height="30%">-->
-
-      </div>
-      </div><br><br><br><br><br>
-      <div class="foo" data-delighter>
-      <div class="game">
-         <h1>ゲームをプレイ！</h1>
-         <a href="game.html" class="btn-gradient-radius">ゲームを始める！</a>
-      </div>
-      </div><br><br><br><br><br>
-     </div>
-   </div>
       </main>
-
+      <div class="quiz">
+         <div class="image clear1">
+             <img src="./img/q1.png" alt="">
+         </div>
+         <div class="answer">
+             <p>謎1の答え</p><br>
+             <p>(アルファベット5文字)</p>
+             <div id="judge1"></div>
+             <form name="form1" id="form1_a1" action="#">
+                 <input class="answer_input1 shake" type="text" name="textBox1" id="textBox_a1" maxlength="5">
+                 <input type="button" value="解答する" class="answer_send1">
+             </form>
+         </div>    
+     </div>
+     <!-- quiz2 -->
+     <div class="quiz">
+         <div class="image clear2">
+             <img src="./img/q2.png" alt="">
+         </div>
+         <div class="answer">
+             <p>謎2の答え</p><br>
+             <p>（漢字1文字）</p>
+             <div id="judge2"></div>
+             <form name="form2" id="form2_a2" action="#">
+                 <input class="answer_input2 shake" type="text" name="textBox2" id="textBox_a2" maxlength="1">
+                 <input type="button" value="解答する" class="answer_send2">
+             </form>
+         </div>    
+     </div>
+     <!-- wall -->
+     
+     <!-- quiz3 -->
+     <div class="quiz">
+         <div class="image clear3">
+             <img src="./img/q3.png" alt="">
+         </div>
+         <div class="answer">
+             <p>謎3の答え</p><br>
+             <p>（カタカナ3文字）</p>
+             <div id="judge3"></div>
+             <form name="form3" id="form3_a3" action="#">
+                 <input class="answer_input3 shake" type="text" name="textBox3" id="textBox_a3" maxlength="3">
+                 <input type="button" value="解答する" class="answer_send3">
+             </form>
+         </div>    
+     </div>
+     <!-- quiz4 -->
+     <div class="quiz">
+         <div class="image clear4">
+             <img src="./img/q4.png" alt="">
+         </div>
+         <div class="answer">
+             <p>謎4の答え</p><br>
+             <p>（ひらがな3文字）</p>
+             <div id="judge4"></div>
+             <form name="form4" id="form4_a4" action="#">
+                 <input class="answer_input4 shake" type="text" name="textBox4" id="textBox_a4" maxlength="3">
+                 <input type="button" value="解答する" class="answer_send4">
+             </form>
+         </div>    
+     </div>
       <footer>
-       <a href="http://www.ijh.shibaura-it.ac.jp/" >
+       <a href="http://www.ijh.shibaura-it.ac.jp/">
        <br><br><br><br><br>
          <img src="photo/shibauralogofull.png" width="30%" height="20%">
        </a>
