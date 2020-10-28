@@ -1,37 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head> 
-        <!-- IE8+に対して「IE=edge」と指定することで、利用できる最も互換性の高い最新のエンジンを使用するよう指示できます
-     参考: https://www.modern.ie/en-us/performance/how-to-use-x-ua-compatible -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <!-- パフォーマンスのために使用する文字のエンコーディングを記述-->
         <meta charset="UTF-8">
-        <!-- ページのタイトルを記述 -->
         <title>3-B芝生祭特設サイト</title>
-      <!-- content属性にページの紹介文を記述 -->
-      <meta name="description" content="芝生祭3-B特設サイト">
-<!-- content属性にページの著者情報を記述 -->
-<!-- モバイル端末への対応、ページをビューポートの幅に合わせてレンダリング（Android, iOS6以降）ズームを許可しない設定「user-scalable=no」は加えない -->
-<!-- スタイルシートはできるだけ早くレンダリングされるため、HTMLドキュメントの上の方に記述href属性にスタイルシートファイルのURIを記述-->
-      <link rel="stylesheet" href="game.css">
-      
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script type="text/javascript" src="delighters.js"></script>
-      <script type="text/javascript" src="main.js"></script>
-       <!-- href属性にファビコンファイルのURIを記述 -->
-       <link rel="shortcut icon" href="photo/favicon.ico">
-       <!-- コメントアウトしてあるコードは、iOS/Android用のアイコン指定 -->
-       <!-- <meta name="mobile-web-app-capable" content="yes">
-       <link rel="icon" sizes="196x196" href="">
-       <link rel="apple-touch-icon" sizes="152x152" href="">-->
-       <!-- スクリプトでブロッキングを起こさないものはここに記述可能であれば「async（文書の読み込みが完了した時点でスクリプトを実行）」を使用Example: <script src="" async></script> -->
-       <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-       <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+        <meta name="description" content="芝生祭3-B特設サイト">
+        <link rel="stylesheet" href="game.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="delighters.js"></script>
+        <link rel="shortcut icon" href="photo/favicon.ico">
+        <link rel="icon" sizes="196x196" href="">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="apple-touch-icon" sizes="152x152" href="">-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
      <body>
+        <script type="text/javascript" src="main.js"></script>
       <div id="wrapper">
          <main>
       <header>
@@ -67,20 +53,21 @@
     　
       </div>
       </main>
+      <!-- quis1 -->
       <div class="quiz">
-         <div class="image clear1">
-             <img src="./img/q1.png" alt="">
-         </div>
-         <div class="answer">
-             <p>謎1の答え</p><br>
-             <p>(アルファベット5文字)</p>
-             <div id="judge1"></div>
-             <form name="form1" id="form1_a1" action="#">
-                 <input class="answer_input1 shake" type="text" name="textBox1" id="textBox_a1" maxlength="5">
-                 <input type="button" value="解答する" class="answer_send1">
-             </form>
-         </div>    
-     </div>
+        <div class="image clear1">
+            <img src="./img/q1.png" alt="">
+        </div>
+        <div class="answer">
+            <p>謎1の答え</p><br>
+            <p>(アルファベット5文字)</p>
+            <div id="judge1"></div>
+            <form name="form1" id="form1_a1" action="#">
+                <input class="answer_input1 shake" type="text" name="textBox1" id="textBox_a1" maxlength="5">
+                <input type="button" value="解答する" class="answer_send1">
+            </form>
+        </div>    
+    </div>
      <!-- quiz2 -->
      <div class="quiz">
          <div class="image clear2">
