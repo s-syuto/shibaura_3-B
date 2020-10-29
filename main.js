@@ -43,7 +43,7 @@ $('.answer_send1').click(function() {
     if(answer1 == "stamp" || answer1 == "STAMP"){
         hint ++;
         console.log(hint);
-        $(".clear1").html('<img src="./img/q1.clear.png">');
+        $(".clear1").html('<img src="photo/no-image.jpg">');
         $('#judge1').html('<p></>');
         console.log("画像を表示");
         if(hint >= 10){
@@ -55,35 +55,13 @@ $('.answer_send1').click(function() {
     }
 });
 
-var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-if(!isChrome){
-  $('#iframeAudio').remove()
-}
-else{
- $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
-}
-
-(function (window, $) {
-  'use strict';
-  $.fn.useSound = function (_event, _id) {
-    var se = $(_id);
-    this.on(_event, function(){
-      se[0].currentTime = 0;
-      se[0].play();
-    });
-    return this;
-  };
-})(this, this.jQuery);
-$('.btn a').useSound('mousedown touchstart', '#sound');
-
-
 $('.answer_send2').click(function() {
     answer2 = document.getElementById("textBox_a2").value;
    console.log(answer2);
    if(answer2 == "春"){
        hint += 2;
        console.log(hint);
-       $('.clear2').html('<img src="./img/q2.clear.png">');
+       $('.clear2').html('<img src="photo/no-image.jpg">');
        $('#judge2').html('<p></>')
        if(hint >= 10){
         $('.hint').css('display','block');
@@ -100,7 +78,7 @@ $('.answer_send3').click(function() {
    if(answer3 == "バンド"){
        hint += 3 ;
        console.log(hint);
-       $('.clear3').html('<img src="./img/q3.clear.png">');
+       $('.clear3').html('<img src="photo/no-image.jpg">');
        $('#judge3').html('<p></>')
        if(hint >= 10){
         $('.hint').fadeIn(1000);}
@@ -116,7 +94,7 @@ $('.answer_send4').click(function() {
    if(answer4 == "かせき"){
         hint += 4 ;
         console.log(hint);
-        $('.clear4').html('<img src="./img/q4.clear.png">');
+        $('.clear4').html('<img src="photo/no-image.jpg">');
         $('#judge4').html('<p></>')
         if(hint >= 10){
             $('.hint').css('display','block');
