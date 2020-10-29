@@ -55,7 +55,6 @@ $('.answer_send1').click(function() {
     }
 });
 
-<<<<<<< HEAD
 var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
 if(!isChrome){
   $('#iframeAudio').remove()
@@ -64,8 +63,6 @@ else{
  $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
 }
 
-=======
->>>>>>> 946330684b71e84e57c59a40f5398e04f28603db
 $('.answer_send2').click(function() {
     answer2 = document.getElementById("textBox_a2").value;
    console.log(answer2);
