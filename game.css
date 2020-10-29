@@ -15,6 +15,24 @@ a:active {
     top: 0;
     left: 0;
 }
+span {
+    color:red;
+}
+.serihu{
+    font-size:100%;
+    color:#fff;
+    font-family:"游明朝", "YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+body {
+	background-image: url("photo/stage1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-position: center center;   
+  }
+
+
 /*menuコンテンツ*/
 .cp_fullscreenmenu .menu {
     position: fixed;
@@ -570,7 +588,6 @@ width: 280px;
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 .gameclear{
     background-image: url("../img/gold.JPG");
     height: 100vh;
@@ -579,12 +596,11 @@ width: 280px;
     background-position: center center;
     /* 画像をタイル状に繰り返し表示しない */
     /* background-repeat: no-repeat; */
-=======
 #judge1, #judge2, #judge3, #judge4{
     width:200px;
     height: 50px;
     margin: auto;
-  }
+  
   
   .hint {
     display: none;
@@ -596,12 +612,10 @@ width: 280px;
     background-position: center center;
     /* 画像をタイル状に繰り返し表示しない */
     background-repeat: no-repeat;
->>>>>>> 946330684b71e84e57c59a40f5398e04f28603db
     /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
     /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
     background-size: cover;
     /* 背景画像が読み込まれる前に表示される背景のカラー */
-<<<<<<< HEAD
     background-color: #ffffff;
 }
 .start {
@@ -627,17 +641,7 @@ width: 280px;
     width: 400px;
     height: 100px;
 }
-span {
-    color:red;
-}
-.serihu{
-    font-size:50%;
-    color:#fff;
-    font-family:"游明朝", YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;;
-}
-=======
-    background-color: #464646;
-  }
+
   .hint .txt {
     display: block;
     text-align: center;
@@ -763,4 +767,4 @@ span {
   }
   /*# sourceMappingURL=index_pc.css.map */
   
->>>>>>> 946330684b71e84e57c59a40f5398e04f28603db
+
