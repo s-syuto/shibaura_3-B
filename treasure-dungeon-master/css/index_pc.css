@@ -1,0 +1,368 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+}
+.start {
+  background: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9000;
+}
+.start p {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+  z-index: 9999;
+  width: 150px;
+  height: 150px;
+}
+
+#count_up{
+  position: fixed;
+  display: block;
+  top: 50%;
+  left: 50%;
+  z-index: 10000;
+  width: 150px;
+  height: 270px;
+  border: 0px solid;
+  background-color: rgba(0,0,0,0);  
+  transform: translate(-50%, -50%);
+}
+.top {
+  width: 100%;
+  height: 120%;
+}
+
+.top .fire {
+  width: 80%;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.top .fire img {
+  width: 100px;
+  height: 100px;
+}
+
+.top .reverse {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.top .logo {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.top .logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.introduction {
+  width: 100%;
+  height: 250vh;
+  margin: 0 auto;
+  background-image: url(../img/topbackgroundimage.jpg);
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: #464646;
+}
+
+.introduction .txt {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 33%;
+  margin: 0px auto;
+}
+
+.introduction .txt p {
+  display: inline-block;
+  margin: 150px auto;
+  color: white;
+  font-size: 20px;
+}
+
+.quiz {
+  width: 100%;
+  height: 80%;
+  background: url("../img/renga-wall1.jpg");
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.quiz .image {
+  width: 70%;
+  height: 50%;
+  margin: 30px auto;
+}
+
+.quiz .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.quiz .answer {
+  color: white;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.quiz .answer p {
+  display: inline-block;
+  margin: 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.quiz .answer .answer_input1 {
+  display: block;
+  margin: 10px auto;
+  border: solid 0px;
+  border-radius: 10px;
+  background-image: url("../img/stone.jpg");
+  width: 200px;
+  height: 60px;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+.quiz .answer .answer_send1 {
+  display: block;
+  font-weight: bold;
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+}
+
+.answer_input2 {
+  display: block;
+  margin: 10px auto;
+  border: solid 0px;
+  border-radius: 10px;
+  background-image: url("../img/stone.jpg");
+  width: 200px;
+  height: 60px;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+.answer_send2 {
+  display: block;
+  font-weight: bold;
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+}
+
+.answer_input3 {
+  display: block;
+  margin: 10px auto;
+  border: solid 0px;
+  border-radius: 10px;
+  background-image: url("../img/stone.jpg");
+  width: 200px;
+  height: 60px;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+.answer_send3 {
+  display: block;
+  font-weight: bold;
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+}
+
+.answer_input4 {
+  display: block;
+  margin: 10px auto;
+  border: solid 0px;
+  border-radius: 10px;
+  background-image: url("../img/stone.jpg");
+  width: 200px;
+　height: 60px;
+  font-size: 35px;
+  color: black;
+  text-align: center;
+}
+
+.answer_send4 {
+  display: block;
+  font-weight: bold;
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+}
+
+#judge1, #judge2, #judge3, #judge4{
+  width:200px;
+  height: 50px;
+  margin: auto;
+}
+
+.hint {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  margin: 20px auto;
+  background-image: url("../img/seiden1.jpg");
+  /* 画像を常に天地左右の中央に配置 */
+  background-position: center center;
+  /* 画像をタイル状に繰り返し表示しない */
+  background-repeat: no-repeat;
+  /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
+  /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
+  background-size: cover;
+  /* 背景画像が読み込まれる前に表示される背景のカラー */
+  background-color: #464646;
+}
+.hint .txt {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  margin: 0px auto;
+}
+
+.hint .txt p {
+  display: inline-block;
+  margin: 20% auto;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/* .hint .txt{
+  width: 70%;
+  height: 70%;
+  margin: 30px auto;
+  padding-top: 30px;
+  text-align: center;
+}
+.hint p {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+} */
+.hint .image{
+  width: 70%;
+  height: 30%;
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+}
+.hint .image img{
+  width: 150px;
+  height: 150px;
+  z-index: 999;
+}
+#answer-change{
+  width:200px;
+  height:150px;
+  border: 0px solid;
+  background-color: rgba(0,0,0,0);
+  position:absolute;
+  top:0%;
+  left:33%;
+  z-index: 1000;
+}
+
+.effect-fade {
+  opacity: 0;
+  -webkit-transform: translate(0, 45px);
+          transform: translate(0, 45px);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.effect-fade.effect-scroll {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.shake {
+  font-weight: bold;
+}
+
+@-webkit-keyframes shake {
+  from {
+    -webkit-transform: translateX(-5px) translateY(0px);
+            transform: translateX(-5px) translateY(0px);
+  }
+  20% {
+    -webkit-transform: translateX(5px) translateY(0px);
+            transform: translateX(5px) translateY(0px);
+  }
+  40% {
+    -webkit-transform: translateX(-10px) translateY(-3px);
+            transform: translateX(-10px) translateY(-3px);
+  }
+  60% {
+    -webkit-transform: translateX(10px) translateY(0px);
+            transform: translateX(10px) translateY(0px);
+  }
+  80% {
+    -webkit-transform: translateX(-10px) translateY(0px);
+            transform: translateX(-10px) translateY(0px);
+  }
+  to {
+    -webkit-transform: translateX(-5px) translateY(0px);
+            transform: translateX(-5px) translateY(0px);
+  }
+}
+
+@keyframes shake {
+  from {
+    -webkit-transform: translateX(-5px) translateY(0px);
+            transform: translateX(-5px) translateY(0px);
+  }
+  20% {
+    -webkit-transform: translateX(5px) translateY(0px);
+            transform: translateX(5px) translateY(0px);
+  }
+  40% {
+    -webkit-transform: translateX(-10px) translateY(-3px);
+            transform: translateX(-10px) translateY(-3px);
+  }
+  60% {
+    -webkit-transform: translateX(10px) translateY(0px);
+            transform: translateX(10px) translateY(0px);
+  }
+  80% {
+    -webkit-transform: translateX(-10px) translateY(0px);
+            transform: translateX(-10px) translateY(0px);
+  }
+  to {
+    -webkit-transform: translateX(-5px) translateY(0px);
+            transform: translateX(-5px) translateY(0px);
+  }
+}
+/*# sourceMappingURL=index_pc.css.map */
