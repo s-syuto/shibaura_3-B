@@ -3,7 +3,7 @@
     <head> 
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta charset="UTF-8">
-        <title>3-B芝生祭特設サイト</title>
+        <title>3-B芝生祭ゲームページ</title>
       <!-- content属性にページの紹介文を記述 -->
       <meta name="description" content="芝生祭3-B特設サイト">
 <!-- content属性にページの著者情報を記述 -->
@@ -26,9 +26,6 @@
        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
     </head>
-     <body>
-        <iframe src="audio/Shibaura_Dashutsu.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
-        <audio src="audio/Shibaura_Dashutsu.mp3" autoplay loop controlslist="nodownload"></audio>
         <meta name="description" content="芝生祭3-B特設サイト">
         <link rel="stylesheet" href="game.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -36,12 +33,18 @@
         <link rel="shortcut icon" href="photo/favicon.ico">
         <link rel="icon" sizes="196x196" href="">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="apple-touch-icon" sizes="152x152" href="">-->
+        <link rel="apple-touch-icon" sizes="152x152" href="">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
      <body>
+    　<div class="audio">
+        <p class="btn"><a onclick="sound()">再生</a></p>
+        <audio id="sound" preload="auto" loop controlslist="nodownload">
+            <source src="audio/Dashitu.mp3" type="audio/mp3">
+        </audio>
+      </div>
         <script type="text/javascript" src="main.js"></script>
       <div id="wrapper">
          <main>

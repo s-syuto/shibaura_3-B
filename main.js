@@ -63,6 +63,20 @@ else{
  $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
 }
 
+(function (window, $) {
+  'use strict';
+  $.fn.useSound = function (_event, _id) {
+    var se = $(_id);
+    this.on(_event, function(){
+      se[0].currentTime = 0;
+      se[0].play();
+    });
+    return this;
+  };
+})(this, this.jQuery);
+$('.btn a').useSound('mousedown touchstart', '#sound');
+
+
 $('.answer_send2').click(function() {
     answer2 = document.getElementById("textBox_a2").value;
    console.log(answer2);

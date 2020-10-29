@@ -32,6 +32,18 @@ body {
 	background-position: center center;   
   }
 
+.btn a {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+    background: rgb(63, 130, 255);
+    border-radius: 6px;
+    border-bottom: 4px solid #666;
+    color: rgb(255, 255, 255);
+    margin: 0 0 0 auto;
+  }
 
 /*menuコンテンツ*/
 .cp_fullscreenmenu .menu {
