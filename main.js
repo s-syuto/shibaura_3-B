@@ -58,7 +58,7 @@ $('.answer_send1').click(function() {
 $('.answer_send2').click(function() {
     answer2 = document.getElementById("textBox_a2").value;
    console.log(answer2);
-   if(answer2 == "春"){
+   if(answer2 == "6"){
        hint += 2;
        console.log(hint);
        $('.clear2').html('<img src="photo/no-image.jpg">');
