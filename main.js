@@ -40,7 +40,7 @@ $(function(){
 $('.answer_send1').click(function() {
      answer1 = document.getElementById("textBox_a1").value;
     console.log(answer1);
-    if(answer1 == "stamp" || answer1 == "STAMP"){
+    if(answer1 == "7" || answer1 == "7"){
         hint ++;
         console.log(hint);
         $(".clear1").html('<img src="photo/no-image.jpg">');
