@@ -1,7 +1,35 @@
-
-.maintenance {
-	font-size: 200%;
+*{
+	margin: 0;
+	padding: 0;
 	text-align: center;
-	text-decoration: none;
-	color: rgb(0, 0, 0)
-}
+	}
+	html{
+	height: 100%;
+	}
+	header{
+	margin-top: 0;
+	}
+	body{
+	width: 100%;
+	font-family: "ƒqƒ‰ƒMƒmŠpƒS Pro W3", Hiragino Kaku Gothic Pro," ƒƒCƒŠƒI", Meiryo, Osaka," ‚l‚r ‚oƒSƒVƒbƒN", MS PGothic," sans-serif";
+	background: #eee;
+	color: #333;
+	font-size: 14px;
+	text-align: center;
+	}
+	.maintenance{
+	padding: 24px 16px;
+	box-sizing: border-box;
+	margin-top: 30%;
+	}
+	.maintenance-message{
+	font-size: 22px;
+	margin-bottom: 24px;
+	font-weight: bold;
+	}
+	.maintenance-date{
+	color: #fff;
+	padding: 8px;
+	background: #cc0000;
+	margin: 0 auto 16px;
+	}
