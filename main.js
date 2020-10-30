@@ -109,16 +109,16 @@ $('#answer-change').click(function() {
     console.log("十字架");
     // 問題1の答え変更
     $('.answer_input1').css('display','none');
-    $('#judge1').html('<img src="./img/answer1.png" style="width:200px height:50px">');
+    $('#judge1').html('<img src="photo/no-image.jpg" style="width:200px height:50px">');
     // 問題2
     $('.answer_input2').css('display','none');
-    $('#judge2').html('<img src="./img/answer2.png" style="width:200px height:50px">');
+    $('#judge2').html('<img src="photo/no-image.jpg" style="width:200px height:50px">');
     // 問題3
     $('.answer_input3').css('display','none');
-    $('#judge3').html('<img src="./img/answer3.png" style="width:200px height:50px">');
+    $('#judge3').html('<img src="photo/no-image.jpg" style="width:200px height:50px">');
     // 問題4
     $('.answer_input4').css('display','none');
-    $('#judge4').html('<img src="./img/answer4.png" style="width:200px height:50px">');
+    $('#judge4').html('<img src="photo/no-image.jpg" style="width:200px height:50px">');
     // 十字架フェードアウト
     $('#cross').fadeOut(1000);
     $('#answer-change').css('display','none');

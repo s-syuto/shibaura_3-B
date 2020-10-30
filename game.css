@@ -19,7 +19,7 @@ span {
     color:red;
 }
 .serihu{
-    font-size:100%;
+    font-size:120%;
     color:#fff;
     font-family:"游明朝", "YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
@@ -608,11 +608,12 @@ width: 280px;
     background-position: center center;
     /* 画像をタイル状に繰り返し表示しない */
     /* background-repeat: no-repeat; */
-#judge1, #judge2, #judge3, #judge4{
+}
+    #judge1, #judge2, #judge3, #judge4{
     width:200px;
     height: 50px;
     margin: auto;
-  
+    }
   
 .hint {
     display: none;
