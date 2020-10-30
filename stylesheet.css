@@ -494,8 +494,8 @@ footer{
 	body{
 	width: 100%;
 	font-family: "ヒラギノ角ゴ Pro W3", Hiragino Kaku Gothic Pro," メイリオ", Meiryo, Osaka," ＭＳ Ｐゴシック", MS PGothic," sans-serif";
-	color: #333;
-	font-size: 14px;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
 	text-align: center;
 	}
 	.maintenance{
@@ -504,7 +504,7 @@ footer{
 	margin-top: 5%;
 	}
 	.maintenance-message{
-	font-size: 22px;
+	font-size: 26px;
 	margin-bottom: 24px;
 	font-weight: bold;
 	}
@@ -514,3 +514,23 @@ footer{
 	background: #cc0000;
 	margin: 0 auto 16px;
 	}
+
+	.motion {
+		margin : 0 auto 40px;
+		width : 100%;
+		font-size : 28px;
+		text-align : center;
+		overflow : hidden;
+		}
+	.motion p{
+		margin:0;
+		display : inline-block;
+		padding-left: 100%;
+		white-space : nowrap;
+		line-height : 1em;
+		animation : scrollSample01 9s linear infinite;
+		}
+	@keyframes scrollSample01{
+		0% { transform: translateX(0)}
+		100% { transform: translateX(-100%)}
+		}
