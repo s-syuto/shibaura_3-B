@@ -75,7 +75,7 @@ $('.answer_send2').click(function() {
 $('.answer_send3').click(function() {
     answer3 = document.getElementById("textBox_a3").value;
    console.log(answer3);
-   if(answer3 == "バンド"){
+   if(answer3 == "5"){
        hint += 3 ;
        console.log(hint);
        $('.clear3').html('<img src="photo/no-image.jpg">');
@@ -91,7 +91,7 @@ $('.answer_send3').click(function() {
 $('.answer_send4').click(function() {
     answer4 = document.getElementById("textBox_a4").value;
    console.log(answer4);
-   if(answer4 == "かせき"){
+   if(answer4 == "3"){
         hint += 4 ;
         console.log(hint);
         $('.clear4').html('<img src="photo/no-image.jpg">');
