@@ -21,7 +21,7 @@ span {
 .serihu{
     font-size:120%;
     color:#fff;
-    font-family:"Ÿà–¾’©", "YuMincho", "Hiragino Mincho ProN W3", "ƒqƒ‰ƒMƒm–¾’© ProN W3", "Hiragino Mincho ProN", "HG–¾’©E", "‚l‚r ‚o–¾’©", "‚l‚r –¾’©", serif;
+    font-family:"ÂŸÅ•Â–Å¾Â’Å ", "YuMincho", "Hiragino Mincho ProN W3", "ÂƒqÂƒÂ‰ÂƒMÂƒmÂ–Å¾Â’Å  ProN W3", "Hiragino Mincho ProN", "HGÂ–Å¾Â’Å E", "Â‚lÂ‚r Â‚oÂ–Å¾Â’Å ", "Â‚lÂ‚r Â–Å¾Â’Å ", serif;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
     margin: 0 0 0 auto;
   }
 
-/*menuƒRƒ“ƒeƒ“ƒc*/
+/*menuÂƒRÂƒÂ“ÂƒeÂƒÂ“Âƒc*/
 .cp_fullscreenmenu .menu {
     position: fixed;
     top: 0;
@@ -118,7 +118,7 @@ body {
     transition: width 0.4s ease;
     background: #e5e5e5;
 }
-/*ƒNƒŠƒbƒN‚µ‚½‚çƒƒjƒ…[‚ªŠJ•Â‚Ì“®ì*/
+/*ÂƒNÂƒÂŠÂƒbÂƒNÂ‚Ä¾Â‚ËÂ‚Ã§ÂƒÂÂƒjÂƒÂ…Â[Â‚ÅÂŠJÂ•Ã‚Â‚ÄšÂ“Å½ÂÄ›*/
 .cp_fullscreenmenu .toggle {
     position: absolute;
     z-index: 2;
@@ -173,7 +173,7 @@ body {
     -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
 }
-/*ƒnƒ“ƒo[ƒK[*/
+/*ÂƒnÂƒÂ“ÂƒoÂ[ÂƒKÂ[*/
 .cp_fullscreenmenu .hamburger {
     position: absolute;
     z-index: 1;
@@ -443,26 +443,26 @@ transition: .4s;
 .btn-gradient-radius:hover {
 background-image: linear-gradient(45deg, #FFC107 0%, #ca3f0c 100%);
 }
-/* Šî–{‚ÌƒXƒ^ƒCƒ‹ */
+/* ÂŠÃ®Â–{Â‚ÄšÂƒXÂƒ^ÂƒCÂƒÂ‹ */
 .foo.delighter {
   transition: all .3s ease-out;
   transform: translateX(-30%);
   opacity: 0;
 }
 
-/* ƒXƒ^[ƒg‚ÌƒXƒ^ƒCƒ‹ */
+/* ÂƒXÂƒ^Â[ÂƒgÂÂÂ‚ÄšÂƒXÂƒ^ÂƒCÂƒÂ‹ */
 .foo.delighter.started {
   transform: none;
   opacity: 1;
 }
-/* Šî–{‚ÌƒXƒ^ƒCƒ‹ */
+/* ÂŠÃ®Â–{Â‚ÄšÂƒXÂƒ^ÂƒCÂƒÂ‹ */
 .right.delighter {
 transition: all .3s ease-out;
 transform: translateX(30%);
 opacity: 0;
 }
 
-/* ƒXƒ^[ƒg‚ÌƒXƒ^ƒCƒ‹ */
+/* ÂƒXÂƒ^Â[ÂƒgÂÂÂ‚ÄšÂƒXÂƒ^ÂƒCÂƒÂ‹ */
 .right.delighter.started {
 transform: none;
 opacity: 1;
@@ -507,8 +507,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ÂÃ¼*/
+    border-radius: 10px;/*ÂŠpÂ‚ÄšÂŠÅ°Â‚Ã*/
     background-color: rgb(31, 152, 233);
 }
 .quiz .answer .answer_send2 {
@@ -518,8 +518,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ÂÃ¼*/
+    border-radius: 10px;/*ÂŠpÂ‚ÄšÂŠÅ°Â‚Ã*/
     background-color: rgb(31, 152, 233);
 }
 .quiz .answer .answer_send3 {
@@ -529,8 +529,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ÂÃ¼*/
+    border-radius: 10px;/*ÂŠpÂ‚ÄšÂŠÅ°Â‚Ã*/
     background-color: rgb(31, 152, 233);
 }
 .quiz .answer .answer_send4 {
@@ -540,8 +540,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ÂÃ¼*/
+    border-radius: 10px;/*ÂŠpÂ‚ÄšÂŠÅ°Â‚Ã*/
     background-color: rgb(31, 152, 233);
 }
 
@@ -606,7 +606,7 @@ width: 280px;
     width: 100%;
     text-align: center;
     background-position: center center;
-    /* ‰æ‘œ‚ğƒ^ƒCƒ‹ó‚ÉŒJ‚è•Ô‚µ•\¦‚µ‚È‚¢ */
+    /* Â‰Ä‡Â‘ÂœÂ‚Ä‘Âƒ^ÂƒCÂƒÂ‹ÂÃ³Â‚Ã‰ÂŒJÂ‚ÄÂ•Ã”Â‚Ä¾Â•\ÂÅšÂ‚Ä¾Â‚ÄŒÂ‚Ë˜ */
     /* background-repeat: no-repeat; */
 }
     #judge1, #judge2, #judge3, #judge4{
