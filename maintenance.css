@@ -63,7 +63,7 @@
 			}
 	
 	.motion2 {
-		animation:0.01s linear infinite rotation1;
+		animation:1s linear infinite rotation1;
 		}
 
 	@keyframes rotation1{
