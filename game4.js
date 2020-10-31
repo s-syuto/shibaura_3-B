@@ -43,7 +43,7 @@ $('.answer_send1').click(function() {
     if(answer1 == "文化祭" || answer1 == "文化祭"){
         hint ++;
         console.log(hint);
-        $(".clear1").html('<img src="photo/qestion_2F_1_clear.png">');
+        $(".clear1").html('<img src="photo/qestion_1F_1_clear.png">');
         $('#judge1').html('<p></>');
         console.log("画像を表示");
         if(hint >= 10){
@@ -61,7 +61,7 @@ $('.answer_send2').click(function() {
    if(answer2 == "水泳"){
        hint += 2;
        console.log(hint);
-       $('.clear2').html('<img src="photo/qestion_2F_2_clear.png">');
+       $('.clear2').html('<img src="photo/qestion_1F_2_clear.png">');
        $('#judge2').html('<p></>')
        if(hint >= 10){
         $('.hint').css('display','block');
