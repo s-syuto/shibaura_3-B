@@ -21,7 +21,7 @@ span {
 .serihu{
     font-size:100%;
     color:#fff;
-    font-family:"Ÿà–¾’©", "YuMincho", "Hiragino Mincho ProN W3", "ƒqƒ‰ƒMƒm–¾’© ProN W3", "Hiragino Mincho ProN", "HG–¾’©E", "‚l‚r ‚o–¾’©", "‚l‚r –¾’©", serif;
+    font-family:"æ¸¸æ˜æœ", "YuMincho", "Hiragino Mincho ProN W3", "ãƒ’ãƒ©ã‚®ãƒæ˜æœ ProN W3", "Hiragino Mincho ProN", "HGæ˜æœE", "ï¼­ï¼³ ï¼°æ˜æœ", "ï¼­ï¼³ æ˜æœ", serif;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
     margin: 0 0 0 auto;
   }
   
-/*menuƒRƒ“ƒeƒ“ƒc*/
+/*menuã‚³ãƒ³ãƒ†ãƒ³ãƒ„*/
 .cp_fullscreenmenu .menu {
     position: fixed;
     top: 0;
@@ -118,7 +118,7 @@ body {
     transition: width 0.4s ease;
     background: #e5e5e5;
 }
-/*ƒNƒŠƒbƒN‚µ‚½‚çƒƒjƒ…[‚ªŠJ•Â‚Ì“®ì*/
+/*ã‚¯ãƒªãƒƒã‚¯ã—ãŸã‚‰ãƒ¡ãƒ‹ãƒ¥ãƒ¼ãŒé–‹é–‰ã®å‹•ä½œ*/
 .cp_fullscreenmenu .toggle {
     position: absolute;
     z-index: 2;
@@ -173,7 +173,7 @@ body {
     -webkit-transform: rotate(225deg);
     transform: rotate(225deg);
 }
-/*ƒnƒ“ƒo[ƒK[*/
+/*ãƒãƒ³ãƒãƒ¼ã‚¬ãƒ¼*/
 .cp_fullscreenmenu .hamburger {
     position: absolute;
     z-index: 1;
@@ -443,26 +443,26 @@ transition: .4s;
 .btn-gradient-radius:hover {
 background-image: linear-gradient(45deg, #FFC107 0%, #ca3f0c 100%);
 }
-/* Šî–{‚ÌƒXƒ^ƒCƒ‹ */
+/* åŸºæœ¬ã®ã‚¹ã‚¿ã‚¤ãƒ« */
 .foo.delighter {
   transition: all .3s ease-out;
   transform: translateX(-30%);
   opacity: 0;
 }
 
-/* ƒXƒ^[ƒg‚ÌƒXƒ^ƒCƒ‹ */
+/* ã‚¹ã‚¿ãƒ¼ãƒˆæ™‚ã®ã‚¹ã‚¿ã‚¤ãƒ« */
 .foo.delighter.started {
   transform: none;
   opacity: 1;
 }
-/* Šî–{‚ÌƒXƒ^ƒCƒ‹ */
+/* åŸºæœ¬ã®ã‚¹ã‚¿ã‚¤ãƒ« */
 .right.delighter {
 transition: all .3s ease-out;
 transform: translateX(30%);
 opacity: 0;
 }
 
-/* ƒXƒ^[ƒg‚ÌƒXƒ^ƒCƒ‹ */
+/* ã‚¹ã‚¿ãƒ¼ãƒˆæ™‚ã®ã‚¹ã‚¿ã‚¤ãƒ« */
 .right.delighter.started {
 transform: none;
 opacity: 1;
@@ -507,8 +507,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ç·š*/
+    border-radius: 10px;/*è§’ã®ä¸¸ã¿*/
     background-color: rgb(31, 152, 233);
 }
 .quiz .answer .answer_send2 {
@@ -518,8 +518,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ç·š*/
+    border-radius: 10px;/*è§’ã®ä¸¸ã¿*/
     background-color: rgb(31, 152, 233);
 }
 .quiz .answer .answer_send3 {
@@ -529,8 +529,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ç·š*/
+    border-radius: 10px;/*è§’ã®ä¸¸ã¿*/
     background-color: rgb(31, 152, 233);
 }
 .quiz .answer .answer_send4 {
@@ -540,8 +540,8 @@ width: 280px;
     width: 200px;
     height: 50px;
     color: #fff;
-    border: solid 3px #6091d3;/*ü*/
-    border-radius: 10px;/*Šp‚ÌŠÛ‚İ*/
+    border: solid 3px #6091d3;/*ç·š*/
+    border-radius: 10px;/*è§’ã®ä¸¸ã¿*/
     background-color: rgb(31, 152, 233);
 }
 
@@ -606,7 +606,7 @@ width: 280px;
     width: 100%;
     text-align: center;
     background-position: center center;
-    /* ‰æ‘œ‚ğƒ^ƒCƒ‹ó‚ÉŒJ‚è•Ô‚µ•\¦‚µ‚È‚¢ */
+    /* ç”»åƒã‚’ã‚¿ã‚¤ãƒ«çŠ¶ã«ç¹°ã‚Šè¿”ã—è¡¨ç¤ºã—ãªã„ */
     /* background-repeat: no-repeat; */
 #judge1, #judge2, #judge3, #judge4{
     width:200px;
@@ -620,14 +620,14 @@ width: 280px;
     height: 100vh;
     margin: 20px auto;
     background-image: url("../img/seiden1.jpg");
-    /* ‰æ‘œ‚ğí‚É“V’n¶‰E‚Ì’†‰›‚É”z’u */
+    /* ç”»åƒã‚’å¸¸ã«å¤©åœ°å·¦å³ã®ä¸­å¤®ã«é…ç½® */
     background-position: center center;
-    /* ‰æ‘œ‚ğƒ^ƒCƒ‹ó‚ÉŒJ‚è•Ô‚µ•\¦‚µ‚È‚¢ */
+    /* ç”»åƒã‚’ã‚¿ã‚¤ãƒ«çŠ¶ã«ç¹°ã‚Šè¿”ã—è¡¨ç¤ºã—ãªã„ */
     background-repeat: no-repeat;
-    /* ƒRƒ“ƒeƒ“ƒc‚Ì‚‚³‚ª‰æ‘œ‚Ì‚‚³‚æ‚è‘å‚«‚¢A“®‚©‚È‚¢‚æ‚¤‚ÉŒÅ’è */
-    /* •\¦‚·‚éƒRƒ“ƒeƒi‚Ì‘å‚«‚³‚ÉŠî‚Ã‚¢‚ÄA”wŒi‰æ‘œ‚ğ’²® */
+    /* ã‚³ãƒ³ãƒ†ãƒ³ãƒ„ã®é«˜ã•ãŒç”»åƒã®é«˜ã•ã‚ˆã‚Šå¤§ãã„æ™‚ã€å‹•ã‹ãªã„ã‚ˆã†ã«å›ºå®š */
+    /* è¡¨ç¤ºã™ã‚‹ã‚³ãƒ³ãƒ†ãƒŠã®å¤§ãã•ã«åŸºã¥ã„ã¦ã€èƒŒæ™¯ç”»åƒã‚’èª¿æ•´ */
     background-size: cover;
-    /* ”wŒi‰æ‘œ‚ª“Ç‚İ‚Ü‚ê‚é‘O‚É•\¦‚³‚ê‚é”wŒi‚ÌƒJƒ‰[ */
+    /* èƒŒæ™¯ç”»åƒãŒèª­ã¿è¾¼ã¾ã‚Œã‚‹å‰ã«è¡¨ç¤ºã•ã‚Œã‚‹èƒŒæ™¯ã®ã‚«ãƒ©ãƒ¼ */
     background-color: #ffffff;
 }
 .start {
