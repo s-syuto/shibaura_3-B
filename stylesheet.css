@@ -534,3 +534,16 @@ footer{
 		0% { transform: translateX(0)}
 		100% { transform: translateX(-100%)}
 		}
+		.makedouga {
+			color: #fff;
+			display: inline-block;
+		   padding: 7px 20px;
+		   border-radius: 25px;
+		   text-decoration: none;
+		   color: #FFF;
+		   background-image: linear-gradient(45deg, #FFC107 0%, #fa6e36 100%);
+		   transition: .4s;
+		   }
+		   .makedouga:hover {
+			   background-image: linear-gradient(45deg, #FFC107 0%, #ca3f0c 100%);
+			   }
