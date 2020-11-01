@@ -608,122 +608,99 @@ width: 280px;
     background-position: center center;
     /* 画像をタイル状に繰り返し表示しない */
     /* background-repeat: no-repeat; */
-}
-#judge1, #judge2, #judge3, #judge4{
-    width:200px;
-    height: 50px;
-    margin: auto;
-}
-  
-  .hint {
-    display: none;
-    width: 100%;
-    height: 100vh;
-    margin: 20px auto;
-    background-image: url("../img/seiden1.jpg");
-    /* 画像を常に天地左右の中央に配置 */
-    background-position: center center;
-    /* 画像をタイル状に繰り返し表示しない */
-    background-repeat: no-repeat;
-    /* コンテンツの高さが画像の高さより大きい時、動かないように固定 */
-    /* 表示するコンテナの大きさに基づいて、背景画像を調整 */
-    background-size: cover;
-    /* 背景画像が読み込まれる前に表示される背景のカラー */
-    background-color: #ffffff;
+  }
+  #judge1, #judge2, #judge3, #judge4{
+  width:200px;
+  height: 50px;
+  margin: auto;
+  }
+
+.hint {
+  display: none;
 }
 .start {
-    background: #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 9000;
+  background: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9000;
 }
 .cleartxt{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 8000;
-    width: 400px;
-    height: 300px;
-    margin: auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 8000;
+  width: 400px;
+  height: 300px;
+  margin: auto;
 }
 .twitter-share-button{
-    width: 400px;
-    height: 100px;
+  width: 400px;
+  height: 100px;
 }
 
-  .hint .txt {
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: 60%;
-    margin: 0px auto;
-  }
-  
-  .hint .txt p {
-    display: inline-block;
-    margin: 20% auto;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  
-  /* .hint .txt{
-    width: 70%;
-    height: 70%;
-    margin: 30px auto;
-    padding-top: 30px;
-    text-align: center;
-  }
-  .hint p {
-    display: inline-block;
-    color: white;
-    font-size: 30px;
-  } */
-  .hint .image{
-    width: 70%;
-    height: 30%;
-    margin: 0px auto;
-    text-align: center;
-    position: relative;
-  }
-  .hint .image img{
-    width: 150px;
-    height: 150px;
-    z-index: 999;
-  }
-  #answer-change{
-    width:200px;
-    height:150px;
-    border: 0px solid;
-    background-color: rgba(0,0,0,0);
-    position:absolute;
-    top:0%;
-    left:33%;
-    z-index: 1000;
-  }
-  
-  .effect-fade {
-    opacity: 0;
-    -webkit-transform: translate(0, 45px);
-            transform: translate(0, 45px);
-    -webkit-transition: all 1.5s;
-    transition: all 1.5s;
-  }
-  
-  .effect-fade.effect-scroll {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  
-  .shake {
-    font-weight: bold;
-  }
+.hint .txt {
+  display: block;
+  text-align: center;
+  width: 100%;
+  height: 60%;
+  margin: 0px auto;
+}
+
+.hint .txt p {
+  display: inline-block;
+  margin: 20% auto;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+ .hint .txt{
+  width: 70%;
+  height: 70%;
+  margin: 30px auto;
+  padding-top: 30px;
+  text-align: center;
+}
+.hint p {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+} 
+.hint .image{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+.hint .image img{
+  width: 150px;
+  height: 150px;
+}
+#answer-change{
+  width:200px;
+  height:150px;
+  border: 0px solid;
+  background-color: rgba(0,0,0,0);
+  position:absolute;
+  top:0%;
+  left:33%;
+  z-index: 1000;
+}
+
+.effect-fade.effect-scroll {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+}
+
+.shake {
+  font-weight: bold;
+}
 
   .image. {
     width : 50vw ;
