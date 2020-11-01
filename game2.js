@@ -40,7 +40,7 @@ $(function(){
 $('.answer_send1').click(function() {
      answer1 = document.getElementById("textBox_a1").value;
     console.log(answer1);
-    if(answer1 == "0202" || answer1 == "0202"){
+    if(answer1 == "5673" || answer1 == "5673"){
         hint ++;
         console.log(hint);
         $(".clear1").html('<img src="photo/qestion_2F_1_clear.png">');
@@ -58,7 +58,7 @@ $('.answer_send1').click(function() {
 $('.answer_send2').click(function() {
     answer2 = document.getElementById("textBox_a2").value;
    console.log(answer2);
-   if(answer2 == "ロッカー"){
+   if(answer2 == ""){
        hint += 2;
        console.log(hint);
        $('.clear2').html('<img src="photo/qestion_2F_2_clear.png">');
@@ -75,7 +75,7 @@ $('.answer_send2').click(function() {
 $('.answer_send3').click(function() {
     answer3 = document.getElementById("textBox_a3").value;
    console.log(answer3);
-   if(answer3 == "33"){
+   if(answer3 == ""){
        hint += 3 ;
        console.log(hint);
        $('.clear3').html('<img src="photo/qestion_2F_3_clear.png">');
@@ -91,7 +91,7 @@ $('.answer_send3').click(function() {
 $('.answer_send4').click(function() {
     answer4 = document.getElementById("textBox_a4").value;
    console.log(answer4);
-   if(answer4 == "0205"){
+   if(answer4 == ""){
         hint += 4 ;
         console.log(hint);
         $('.clear4').html('<img src="photo/qestion_2F_4_clear.png">');
