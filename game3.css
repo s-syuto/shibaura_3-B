@@ -608,11 +608,12 @@ width: 280px;
     background-position: center center;
     /* 画像をタイル状に繰り返し表示しない */
     /* background-repeat: no-repeat; */
+}
 #judge1, #judge2, #judge3, #judge4{
     width:200px;
     height: 50px;
     margin: auto;
-  
+}
   
   .hint {
     display: none;
@@ -724,29 +725,12 @@ width: 280px;
     font-weight: bold;
   }
 
-  .image-clear1 {
+  .image. {
     width : 50vw ;
     text-align: center;
     margin: 0 auto;
   }
-
-  .image-clear2 {
-    width : 50vw ;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .image-clear3 {
-    width : 50vw ;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .image-clear4 {
-    width : 50vw ;
-    text-align: center;
-    margin: 0 auto;
-  }
+  
 
   
   @-webkit-keyframes shake {
