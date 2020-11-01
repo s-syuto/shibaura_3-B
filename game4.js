@@ -24,6 +24,7 @@ $('#count_up').click(function() {
     });
 // フェードイン
 // フェードイン
+
 (function (window, $) {
     'use strict';
     $.fn.useSound = function (_event, _id) {
@@ -37,7 +38,7 @@ $('#count_up').click(function() {
   })(this, this.jQuery);
   $('.btn a').useSound('mousedown touchstart', '#sound');
   
-  
+
 $(function(){
     $(window).scroll(function (){
         $('.effect-fade').each(function(){
