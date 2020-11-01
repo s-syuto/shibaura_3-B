@@ -1,6 +1,9 @@
 body {
   background-image: url("photo/end.png");
 }
+p {
+  color:#FFF;
+}
 .anke a {
     width: 200px;
     height: 50px;
