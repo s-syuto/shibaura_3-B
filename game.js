@@ -43,7 +43,7 @@ $('.answer_send1').click(function() {
     if(answer1 == "7" || answer1 == "7"){
         hint ++;
         console.log(hint);
-        $(".clear1").html('<img src="photo/qestion_3F_1_clear.png">');
+        $("image-clear1").html('<img src="photo/qestion_3F_1_clear.png">');
         $('#judge1').html('<p></>');
         console.log("画像を表示");
         if(hint >= 10){
