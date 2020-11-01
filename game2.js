@@ -40,13 +40,13 @@ $(function(){
 $('.answer_send1').click(function() {
      answer1 = document.getElementById("textBox_a1").value;
     console.log(answer1);
-    if(answer1 == "5673" || answer1 == "5673"){
+    if(answer1 == "5673"){
         hint ++;
         console.log(hint);
-        $(".clear1").html('<img src="photo/qestion_2F_1_clear.png">');
+        $(".clear1").html('<img src="photo/qestion_3F_5_clear.png">');
         $('#judge1').html('<p></>');
         console.log("画像を表示");
-        if(hint >= 10){
+        if(hint >= 1){
             $('.hint').css('display','block');
         }
     } else {
@@ -55,7 +55,7 @@ $('.answer_send1').click(function() {
     }
 });
 
-$('.answer_send2').click(function() {
+/* $('.answer_send2').click(function() {
     answer2 = document.getElementById("textBox_a2").value;
    console.log(answer2);
    if(answer2 == ""){
@@ -103,5 +103,6 @@ $('.answer_send4').click(function() {
        $('#judge4').html('<p style="color: red">不正解です</>');
 
    }
-});
+}); */
+
 
