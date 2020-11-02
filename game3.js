@@ -63,7 +63,7 @@ $(function(){
 $('.answer_send1').click(function() {
      answer1 = document.getElementById("textBox_a1").value;
     console.log(answer1);
-    if(answer1 == "0205" || answer1 == "0205"){
+    if(answer1 == "0202"){
         hint ++;
         console.log(hint);
         $(".clear1").html('<img src="photo/qestion_2F_1_clear.png">');
@@ -136,7 +136,7 @@ function enter(){
 }
 
 function clickBtn1(){
-    document.form1.textBox1.value = "0205";
+    document.form1.textBox1.value = "0202";
 }
 
 function clickBtn2(){
