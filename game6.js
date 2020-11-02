@@ -24,7 +24,6 @@ $('#count_up').click(function() {
     });
 // フェードイン
 // フェードイン
-
 (function (window, $) {
     'use strict';
     $.fn.useSound = function (_event, _id) {
@@ -48,7 +47,7 @@ window.addEventListener('DOMContentLoaded' , function(){
     mediasVol_def();
 }, false); 
 
-
+  
 $(function(){
     $(window).scroll(function (){
         $('.effect-fade').each(function(){
@@ -65,13 +64,13 @@ $(function(){
 $('.answer_send1').click(function() {
      answer1 = document.getElementById("textBox_a1").value;
     console.log(answer1);
-    if(answer1 == "文化祭"){
+    if(answer1 == "芝浦"){
         hint ++;
         console.log(hint);
-        $(".clear1").html('<img src="photo/qestion_1F_1_clear.png" width="70%" height="70%">');
+        $(".clear1").html('<img src="photo/qestion_1F_5_clear.png" width="70%" height="70%">');
         $('#judge1').html('<p></>');
         console.log("画像を表示");
-        if(hint >= 10){
+        if(hint >= 1){
             $('.hint').css('display','block');
         }
     } else {
@@ -80,13 +79,13 @@ $('.answer_send1').click(function() {
     }
 });
 
-$('.answer_send2').click(function() {
+/* $('.answer_send2').click(function() {
     answer2 = document.getElementById("textBox_a2").value;
    console.log(answer2);
-   if(answer2 == "水泳"){
+   if(answer2 == ""){
        hint += 2;
        console.log(hint);
-       $('.clear2').html('<img src="photo/qestion_1F_2_clear.png" width="70%" height="70%">');
+       $('.clear2').html('<img src="photo/qestion_2F_2_clear.png">');
        $('#judge2').html('<p></>')
        if(hint >= 10){
         $('.hint').css('display','block');
@@ -100,10 +99,10 @@ $('.answer_send2').click(function() {
 $('.answer_send3').click(function() {
     answer3 = document.getElementById("textBox_a3").value;
    console.log(answer3);
-   if(answer3 == "せいかい"){
+   if(answer3 == ""){
        hint += 3 ;
        console.log(hint);
-       $('.clear3').html('<img src="photo/qestion_1F_3_clear.png" width="70%" height="70%">');
+       $('.clear3').html('<img src="photo/qestion_2F_3_clear.png">');
        $('#judge3').html('<p></>')
        if(hint >= 10){
         $('.hint').fadeIn(1000);}
@@ -116,10 +115,10 @@ $('.answer_send3').click(function() {
 $('.answer_send4').click(function() {
     answer4 = document.getElementById("textBox_a4").value;
    console.log(answer4);
-   if(answer4 == "せいかい"){
+   if(answer4 == ""){
         hint += 4 ;
         console.log(hint);
-        $('.clear4').html('<img src="photo/qestion_1F_4_clear.png" width="70%" height="70%">');
+        $('.clear4').html('<img src="photo/qestion_2F_4_clear.png">');
         $('#judge4').html('<p></>')
         if(hint >= 10){
             $('.hint').css('display','block');
@@ -128,7 +127,7 @@ $('.answer_send4').click(function() {
        $('#judge4').html('<p style="color: red">不正解です</>');
 
    }
-}); 
+}); */
 
 document.onkeypress = enter;
 function enter(){
@@ -138,17 +137,5 @@ function enter(){
 }
 
 function clickBtn1(){
-    document.form1.textBox1.value = "文化祭";
-}
-
-function clickBtn2(){
-    document.form2.textBox2.value = "水泳";
-}
-
-function clickBtn3(){
-    document.form3.textBox3.value = "せいかい";
-}
-
-function clickBtn4(){
-    document.form4.textBox4.value = "せいかい";
+    document.form1.textBox1.value = "芝浦";
 }
