@@ -125,3 +125,19 @@ function enter(){
     return false;
   }
 }
+
+function clickBtn1(){
+    document.form1.textBox1.value = "0205";
+}
+
+function clickBtn2(){
+    document.form2.textBox2.value = "ロッカー";
+}
+
+function clickBtn3(){
+    document.form3.textBox3.value = "33";
+}
+
+function clickBtn4(){
+    document.form4.textBox4.value = "0205";
+}

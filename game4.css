@@ -770,3 +770,15 @@ font-weight: bold;
     color: rgb(255, 255, 255);
     margin: 0 0 0 auto;
   }
+
+  .answer_preview .preview {
+    display: block;
+    font-weight: bold;
+    margin: 10px auto;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    background-color: rgb(31, 152, 233);
+}

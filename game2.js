@@ -125,3 +125,7 @@ function enter(){
     return false;
   }
 }
+
+function clickBtn1(){
+    document.form1.textBox1.value = "5673";
+}

@@ -554,7 +554,7 @@ width: 280px;
   width: 200px;
   height: 60px;
   font-size: 35px;
-  color: white;
+  color: black;
   text-align: center;
 }
 .quiz .answer .answer_input2 {
@@ -777,3 +777,14 @@ font-weight: bold;
   margin: 0 auto;
 }
 
+.answer_preview .preview {
+  display: block;
+  font-weight: bold;
+  margin: 10px auto;
+  width: 200px;
+  height: 50px;
+  color: #fff;
+  border: solid 3px #6091d3;/*線*/
+  border-radius: 10px;/*角の丸み*/
+  background-color: rgb(31, 152, 233);
+}
