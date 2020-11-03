@@ -1,27 +1,4 @@
-$(function() {
-	setTimeout(function(){
-		$('.start p').fadeIn(1600);
-	},500); //0.5秒後にロゴをフェードイン!
-	setTimeout(function(){
-        $('.start').fadeOut(500);
-	},4000); //2.5秒後にロゴ含め真っ白背景をフェードアウト！
-});
 
-$(function(){
-    setTimeout(function(){
-        $('#count_up').fadeOut(10000);
-    },11000);
-});
-
-var hint = 0;
-var not = 0;
-$('#count_up').click(function() {
-    not ++;
-    console.log(not);
-        if (not == 3 ){
-            location.href = "./clear.html";
-        }
-    });
 // フェードイン
 // フェードイン
 (function (window, $) {

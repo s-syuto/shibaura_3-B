@@ -24,8 +24,48 @@ span {
     font-family:"游明朝", "YuMincho", "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
+.member a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 40px ;
+    }
+
+ul {
+    list-style: none;
+     }
+
+.nameBox3 {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 640px;
+    }
+.nameBox3 li {
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    float: left;
+    width: 50%;
+    }
+
+.nameBox2 {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 640px;
+    }
+.nameBox2 li {
+    padding: 0;
+    margin: 0;
+    list-style-type:none;
+    float: left;
+    width: 50%;
+    }
+    
+    
 body {
-	background-image: url("photo/Shibaura.jpg");
+	background-image: url("photo/stage1.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed; 
@@ -278,6 +318,7 @@ float: right;
 
 h1{
 text-align: center;
+font-size: 150px;
 text-decoration: none;
 color: rgb(255, 255, 255);
 
@@ -450,293 +491,7 @@ background-image: linear-gradient(45deg, #FFC107 0%, #ca3f0c 100%);
   opacity: 0;
 }
 
-/* スタート時のスタイル */
-.foo.delighter.started {
-  transform: none;
-  opacity: 1;
-}
-/* 基本のスタイル */
-.right.delighter {
-transition: all .3s ease-out;
-transform: translateX(30%);
-opacity: 0;
-}
-
-/* スタート時のスタイル */
-.right.delighter.started {
-transform: none;
-opacity: 1;
-}
-footer{
-line-height: normal;
-}
-.video{
-position:relative;
-width:100%;
-padding-top:56.25%;
-}
-.video iframe{
-position:absolute;
-top:0;
-right:0;
-width:100%;
-height:100%;
-}
-.start {
-background: #444;
-position: fixed;
-top: 0;
-left: 0;
-height: 100%;
-width: 100%;
-z-index: 9000;
-}
-.start p {
-position: fixed;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
-display: none;
-z-index: 9999;
-width: 280px;
-}
-.quiz .answer .answer_send1 {
-    display: block;
-    font-weight: bold;
-    margin: 10px auto;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    background-color: rgb(31, 152, 233);
-}
-
-.hintdouga {
-    display: block;
-    font-weight: bold;
-    margin: 10px auto;
-    width: 300px;
-    height: 70px;
-    color: #fff;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    background-color: rgb(31, 152, 233);
-    text-align: center;
-}
-
-.answer_preview .preview {
-    display: block;
-    font-weight: bold;
-    margin: 10px auto;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    background-color: rgb(31, 152, 233);
-}
-
-.quiz .answer .answer_send2 {
-    display: block;
-    font-weight: bold;
-    margin: 10px auto;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    background-color: rgb(31, 152, 233);
-}
-.quiz .answer .answer_send3 {
-    display: block;
-    font-weight: bold;
-    margin: 10px auto;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    background-color: rgb(31, 152, 233);
-}
-.quiz .answer .answer_send4 {
-    display: block;
-    font-weight: bold;
-    margin: 10px auto;
-    width: 200px;
-    height: 50px;
-    color: #fff;
-    border: solid 3px #6091d3;/*線*/
-    border-radius: 10px;/*角の丸み*/
-    background-color: rgb(31, 152, 233);
-}
-
-.quiz .answer .answer_input1 {
-    display: block;
-    margin: 10px auto;
-    border: solid 0px;
-    border-radius: 10px;
-    background-image: url(../img/stone.jpg);
-    width: 200px;
-    height: 60px;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-}
-.quiz .answer .answer_input2 {
-    display: block;
-    margin: 10px auto;
-    border: solid 0px;
-    border-radius: 10px;
-    background-image: url(../img/stone.jpg);
-    width: 200px;
-    height: 60px;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-}
-.quiz .answer .answer_input3 {
-    display: block;
-    margin: 10px auto;
-    border: solid 0px;
-    border-radius: 10px;
-    background-image: url(../img/stone.jpg);
-    width: 200px;
-    height: 60px;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-}
-.quiz .answer .answer_input4 {
-    display: block;
-    margin: 10px auto;
-    border: solid 0px;
-    border-radius: 10px;
-    background-image: url(../img/stone.jpg);
-    width: 200px;
-    height: 60px;
-    font-size: 35px;
-    color: black;
-    text-align: center;
-}
-.quiz .answer p {
-    display: inline-block;
-    margin: 10px auto;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.gameclear{
-    background-image: url("../img/gold.JPG");
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    background-position: center center;
-    /* 画像をタイル状に繰り返し表示しない */
-    /* background-repeat: no-repeat; */
-}
-    #judge1, #judge2, #judge3, #judge4{
-    width:200px;
-    height: 50px;
-    margin: auto;
-    }
-  
-.hint {
-    display: none;
-}
-.start {
-    background: #000000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 9000;
-}
-.cleartxt{
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 8000;
-    width: 400px;
-    height: 300px;
-    margin: auto;
-}
-.twitter-share-button{
-    width: 400px;
-    height: 100px;
-}
-
-  .hint .txt {
-    display: block;
-    text-align: center;
-    width: 100%;
-    height: 60%;
-    margin: 0px auto;
-  }
-  
-  .hint .txt p {
-    display: inline-block;
-    margin: 20% auto;
-    color: black;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  
-   .hint .txt{
-    width: 70%;
-    height: 70%;
-    margin: 30px auto;
-    padding-top: 30px;
-    text-align: center;
-  }
-  .hint p {
-    display: inline-block;
-    color: white;
-    font-size: 30px;
-  } 
-  .hint .image{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    position: relative;
-  }
-  .hint .image img{
-    width: 150px;
-    height: 150px;
-  }
-  #answer-change{
-    width:200px;
-    height:150px;
-    border: 0px solid;
-    background-color: rgba(0,0,0,0);
-    position:absolute;
-    top:0%;
-    left:33%;
-    z-index: 1000;
-  }
-  
-  .effect-fade.effect-scroll {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-  
-  .shake {
-    font-weight: bold;
-  }
-
-  .image {
-    width : 50vw ;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-
-  
-  @-webkit-keyframes shake {
+ @-webkit-keyframes shake {
     from {
       -webkit-transform: translateX(-5px) translateY(0px);
               transform: translateX(-5px) translateY(0px);
@@ -790,20 +545,4 @@ width: 280px;
     }
   }
   /*# sourceMappingURL=index_pc.css.map */
-  
-  .next a {
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-    display: block;
-    background: rgb(63, 130, 255);
-    border-radius: 6px;
-    border-bottom: 4px solid #666;
-    color: rgb(255, 255, 255);
-    margin: 0 0 0 auto;
-  }
-.hintdouga {
-    color: #fff;
-    font-size: 130%;
-}
+
