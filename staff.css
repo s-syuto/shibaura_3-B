@@ -321,8 +321,29 @@ text-align: center;
 font-size: 150px;
 text-decoration: none;
 color: rgb(255, 255, 255);
-
 }
+
+.video_member{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.system_member{
+    text-align: center;
+    font-size: 70px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.mondai_member{
+    text-align: center;
+    font-size: 70px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
 .ABOUT {
 font-size: 200%;
 text-align: center;
