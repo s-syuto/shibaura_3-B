@@ -103,7 +103,7 @@ $('.answer_send3').click(function() {
    if(answer3 == "せいかい"){
        hint += 3 ;
        console.log(hint);
-       $('.clear3').html('<img src="photo/qestion_1F_3_clear.PNG" width="70%" height="70%">');
+       $('.clear3').html('<img src="photo/qestion_1F_3_clear.png" width="70%" height="70%">');
        $('#judge3').html('<p></>')
        if(hint >= 10){
         $('.hint').fadeIn(1000);}
@@ -119,7 +119,7 @@ $('.answer_send4').click(function() {
    if(answer4 == "せいかい"){
         hint += 4 ;
         console.log(hint);
-        $('.clear4').html('<img src="photo/qestion_1F_4_clear.PNG" width="70%" height="70%">');
+        $('.clear4').html('<img src="photo/qestion_1F_4_clear.png" width="70%" height="70%">');
         $('#judge4').html('<p></>')
         if(hint >= 10){
             $('.hint').css('display','block');
